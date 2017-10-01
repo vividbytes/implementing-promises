@@ -1,0 +1,21 @@
+{
+  "name": "vividbytes-implementing-promises",
+  "version": "1.0.0",
+  "description": "A promise implementation for educational purposes",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/tape test/**/*.js | node_modules/.bin/tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vividbytes/implementing-promises.git"
+  },
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.8.0"
+  },
+  "author": "vividbytes",
+  "license": "MIT"
+}
